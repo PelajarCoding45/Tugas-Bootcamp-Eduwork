@@ -1,0 +1,48 @@
+.jumbotron {
+  padding-top: 5rem;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.biodata {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  display: block;
+  white-space: nowrap;
+}
+.biodata td,
+.biodata th {
+  padding: 10px;
+  text-align: center;
+  overflow-x: auto;
+  border-collapse: collapse;
+  border-radius: 6px;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  display: none; /* Sembunyikan pop-up secara default */
+  background: linear-gradient(
+    to right,
+    #007bff,
+    #0056b3
+  ); /* Warna gradasi biru */
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
